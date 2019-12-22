@@ -1,0 +1,180 @@
+
+
+
+
+<html>
+<head>
+<title> Form</title>
+<body>
+<CENTER><img src="Image/villaduomo_logo1500.jpg" width="1200" height="250" />
+ </center> <br>
+ <center><img src="VISHAL.gif" width="1169" height="603"  /></center>
+<title> Medical Information </title>
+
+
+
+
+
+
+<div style=" text-align:CENTER;"><table width="100%" border="1" cellpadding="10" cellspacing="00" style="border-width: 0px; background-color: #800080;">
+<tr valign="center">
+<td width="180" style="border-width : 1px; border-color : #f0f0f0 #f0f0f0 #f0f0f0 #f0f0f0; border-style: solid;"><p style=" text-align: left;"><span style=" font-size:15pt; font-family: 'Comic Sans MS', cursive; font-style: italic; font-weight: bold; color: #ffffff; background-color: transparent;"><a href="index.html" hover{background color:yellow;}>&nbsp;&nbsp;&nbsp;<font color="white">HOME</span></font></p></a>
+</td>
+<td width="180" style="border-width : 1px; border-color : #f0f0f0 #f0f0f0 #f0f0f0 #f0f0f0; border-style: solid;"><p style=" text-align: left;"><span style=" font-size:15pt; font-family: 'Comic Sans MS', cursive; font-style: italic; font-weight: bold; color: #ffffff; background-color: transparent;"><a href="SPECIAL.html">&nbsp;&nbsp;<font color="white">SPEACIAL</span></p></font></a>
+</td>
+<td width="189" style="border-width : 1px; border-color : #f0f0f0 #f0f0f0 #f0f0f0 #f0f0f0; border-style: solid;"><p style=" text-align: left;"><span style=" font-size:15pt; font-family: 'Comic Sans MS', cursive; font-style: italic; font-weight: bold; color: #ffffff; background-color: transparent;"><a href="ROOM AND RATER.html">&nbsp;&nbsp;<font color="white">ROOMS AND &nbsp;&nbsp    &nbsp             RATE</span></p></font></a>
+</td>
+<td width="180" style="border-width : 1px; border-color : #f0f0f0 #f0f0f0 #f0f0f0 #f0f0f0; border-style: solid;"><p style=" text-align: left;"><span style=" font-size:15pt; font-family: 'Comic Sans MS', cursive; font-style: italic; font-weight: bold; color: #ffffff; background-color: transparent;"><a href="location.html">&nbsp;&nbsp;<font color="white">LOCATION</span></p></font></a>
+</td>
+<td width="180" style="border-width : 1px; border-color : #f0f0f0 #f0f0f0 #f0f0f0 #f0f0f0; border-style: solid;"><p style=" text-align: left;"><span style=" font-size:15pt; font-family: 'Comic Sans MS', cursive; font-style: italic; font-weight: bold; color: #ffffff; background-color: transparent;"><a href="gallary.html">&nbsp;&nbsp;<font color="white">GALLERY</font></span></p></a>
+</td>
+<td style="border-width : 1px; border-color : #f0f0f0 #f0f0f0 #f0f0f0 #f0f0f0; border-style: solid;"><p style=" text-align: left;"><span style=" font-size: 15pt; font-family: 'Comic Sans MS', cursive; font-style: italic; font-weight: bold; color: #ffffff; background-color: transparent;"><a href="about us.html">&nbsp;&nbsp;<font color="white">ABOUT US</span></p></font></a>
+</td>
+</tr>
+</table>
+
+
+</div>
+<p style=" text-align: left;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent;"><br /></span></p>
+
+</table>
+
+
+</div>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+</style>
+</head>
+<body>
+<font face="algerian" color="red" size=8> <p align="center"> Medical Information </p></font>
+
+
+<div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Previous Medical History :</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+      </div>
+      
+      Do you any disease ?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <input type="radio" name="doctor" value="yes"> Yes <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <input type="radio" name="doctor" value="no"> No <br>
+      <div class="row">
+      <div class="col-25">
+        <label for="subject"> 
+        If yes, specify here     :</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+      </div>
+      
+
+      Any current treatement going on?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <input type="radio" name="doctor" value="yes"> Yes <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <input type="radio" name="doctor" value="no"> No <br>
+      <div class="row">
+      <div class="col-25">
+        <label for="subject">
+        If yes, specify here    : :</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+      </div>
+    </div>
+    
+    
+    
+Do you need any doctor? : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="doctor" value="yes"> Yes <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="doctor" value="no"> No <br>
+<a href ="thanks.html"><p align ="center"><font face="book antiqua" color="red" size="7">submit</p></a>
+  </form>
+</div>
+
+</head>
+</html>
